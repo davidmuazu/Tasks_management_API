@@ -1,21 +1,24 @@
-# my Virtual environment
+# Virtual environment
 venv/
 
-#my Python cache files
+# Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
+
+# Database
+db.sqlite3
 
 # Django stuff
-db.sqlite3
-media/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.mo
 
-# VSCode settings
+# VSCode / IDE
 .vscode/
+.idea/
 
-# envEnvironment variables
+# Environment variables
 .env
-
-# Migrations
-*/migrations/__pycache__/
